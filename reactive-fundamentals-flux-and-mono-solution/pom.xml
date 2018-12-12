@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>reactive-fundamentals-flux-and-mono-solution</artifactId>
+	<organization>
+		<name>Pivotal Education</name>
+		<url>http://pivotal.io/training</url>
+	</organization>
+	<packaging>jar</packaging>
+	<parent>
+		<groupId>io.pivotal.education.spring5</groupId>
+		<artifactId>parentProject</artifactId>
+		<version>5.0.a.RELEASE</version>
+	</parent>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<!--  Spring reactive support -->
+		<!-- Project Reactor brings Reactive types to Java 8 -->
+		<dependency>
+			<groupId>org.projectreactor</groupId>
+			<artifactId>reactor-spring</artifactId>
+			<version>1.0.1.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>io.projectreactor</groupId>
+			<artifactId>reactor-core</artifactId>
+		</dependency>
+	</dependencies>
+</project>
